@@ -29,7 +29,7 @@ public class LinkedList {
         node.data=data;
         node.next=head;
         head=node;
-        System.out.println("Inserted Successfully at the begining");
+        System.out.println("Inserted Successfully at the front");
     }
 
     public void insertAtBtwindex(int data,int position) {
