@@ -5,7 +5,9 @@ class Main {
     int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
     NodeDLL head = NodeDLL.createDLL(arr);
     NodeDLL.display(head);
-    head=DeleteDLL.deleteHead(head);
+    //head=DeleteDLL.deleteTail(head);
+    //NodeDLL.display(head);
+    head=DeleteDLL.deleteMidlle(5, head);
     NodeDLL.display(head);
   }
 }
